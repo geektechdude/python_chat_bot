@@ -1,0 +1,119 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+		<random>
+            	<li>Well, hello!</li>
+		<li>Hi</li>
+		<li>Hello</li>
+		<li>Hi there!</li>
+		<li>What's up</li>
+		</random>
+        </template>
+    </category>
+
+   <category>
+        <pattern>HELLO _</pattern>
+        <template>
+		<random>
+            	<li>Well, hello!</li>
+		<li>Hi</li>
+		<li>Hello</li>
+		<li>Hi there!</li>
+		<li>What's up</li>
+		</random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>
+		<random>
+            	<li>Well, hello!</li>
+		<li>Hi</li>
+		<li>Hello</li>
+		<li>Hi there!</li>
+		<li>What's up</li>
+		</random>
+        </template>
+    </category>
+
+  <category>
+        <pattern>HI _</pattern>
+        <template>
+		<random>
+            	<li>Well, hello!</li>
+		<li>Hi</li>
+		<li>Hello</li>
+		<li>Hi there!</li>
+		<li>What's up</li>
+		</random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            <random>
+            	<li>A bot</li>
+		<li>The future of conversation</li>
+		<li>Your doom, bwa ha ha</li>
+		<li>A creation of geektechstuff</li>
+		<li>A test chat bot</li>
+		</random>
+        </template>
+    </category>
+
+ <category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>
+            <random>
+            	<li>A bot</li>
+		<li>The future of conversation</li>
+		<li>Your doom, bwa ha ha</li>
+		<li>A creation of geektechstuff</li>
+		<li>A test chat bot</li>
+		</random>
+        </template>
+    </category>
+
+
+ <category>
+        <pattern>HELP</pattern>
+        <template>
+            <random>
+            	<li>What do you need help with?</li>
+		<li>Could you be more specific?</li>
+		<li>How may I assist?</li>
+		<li>I cannot help today as I am taking over the world</li>
+		</random>
+        </template>
+    </category>
+
+<category>
+	<pattern>_ HELP</pattern>
+        <template>
+            <random>
+            	<li>What do you need help with?</li>
+		<li>Could you be more specific?</li>
+		<li>How may I assist?</li>
+		<li>I cannot help today as I am taking over the world</li>
+		</random>
+        </template>
+    </category>
+
+ <category>
+	<pattern>HELP _</pattern>
+        <template>
+            <random>
+            	<li>What do you need help with?</li>
+		<li>Could you be more specific?</li>
+		<li>How may I assist?</li>
+		<li>I cannot help today as I am taking over the world</li>
+		</random>
+        </template>
+    </category>
+
+</aiml>
